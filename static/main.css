@@ -21,7 +21,7 @@ body {
   text-align: center;
 }
 
-h1 {
+.thug {
   font-family: KOTRAHOPE;
   padding: 60px;
   font-size: 70px;
@@ -175,7 +175,7 @@ input:focus {
   justify-content: center;
   align-items: center;
   height: 87px;
-  width: 85px;
+  width: 82px;
   border: 2px solid white;
   border-radius: 8px;
   background-color: transparent;
@@ -313,43 +313,3 @@ input:focus {
 }
 
 /*  개인소개 페이지 끝 */
-
-/*꼬릿말*/
-
-#blog_address {
-  margin-top: 105px;
-  position: relative;
-  width: 100%;
-}
-
-
-#foot {
-  width: 100%;
-  height: 90px;
-  bottom: 0px;
-  position: absolute;
-  border-top: 1px solid #c4c4c4;
-  padding-top: 15px;
-  padding-left: 10px;
-  color: #808080;
-  font-size: 11px;
-}
-
-#foot a {
-  display: inline-block;
-  margin: 5px;
-  color: #808080; font-size: 11px;
-}
-
-#foot a:visited {
-  color: #808080;
-}
-
-#foot p {
-  margin-top: 0; margin-bottom: 0;
-}
-
-#foot p span {
-  display: inline-block;
-  margin-left: 20px;
-}
