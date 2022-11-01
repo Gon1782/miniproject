@@ -8,6 +8,8 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;600&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'");
+
 body {
   margin: 0px;
   padding: 0px;
@@ -105,7 +107,110 @@ body {
 }
 
 /*--첫 메인페이지--*/
+.teaminfo {
+  background: url("../static/jjanggu.png") no-repeat center;
+  background-size: cover;
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-top: 50px;
+  padding-right: 22px;
+  width: 98vw;
+  height: 100vh;
+}
+.container1 {
+  display: grid;
+  justify-content: center;
+  margin: 0 0 30px 38px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 200px 1fr 2fr;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-position: center;
+  border-radius: 10px;
+  width: 95vw;
+  height: 95vh;
+}
+.gridHeader {
+  display: grid;
+  align-content: center;
+  text-align: center;
+  margin: 0px;
+  padding: 50px 0 50px 0;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  max-width: 500px;
+  width: 100%;
+  height: 30vh;
+  margin: 0 auto 0 auto;
+  padding: 0 25px 0 25px;
+}
+.item2 {
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  padding: 0 25px 0 25px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 4;
+  height: 70vh;
+  border-left: 1px solid black;
+}
+.item3 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  max-width: 500px;
+  width: 100%;
+  height: 30vh;
+  margin: 0 auto 50px auto;
+  padding: 0 25px 0 25px;
+}
+.features {
+  display: inline-block;
+  max-width: 500px;
+  width: 95%;
+  icon
+}
+.features>li {
+  padding: 0 10px 0 10px;
+  word-break: keep-all;
+  margin-bottom: 20px;
+  list-style: url("../static/gear-fill.svg");
+  font-size: 20px;
+}
+.promise {
+  display: inline-block;
+  max-width: 300px;
+  width: 95%;
+}
+.promise>li {
+  padding: 0 10px 0 10px;
+  word-break: keep-all;
+  margin-bottom: 20px;
+  list-style: url("../static/fire.svg");
+  font-size: 20px;
+}
+.goal {
+  display: inline-block;
+  max-width: 500px;
+  width:95%;
+}
+.goal>li {
+  padding: 0 10px 0 10px;
+  word-break: keep-all;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
 
+/* 팀목표 약속페이지 */
 a {
   text-decoration: none;
 }
