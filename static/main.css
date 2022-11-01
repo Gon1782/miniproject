@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "KOTRAHOPE";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2")
+    format("woff2");
+    font-weight: normal;
+    font-style: normal;
+    }
+
 *{
     margin: 0;
     padding: 0;
@@ -43,6 +51,7 @@ input:focus{
     border: 1px solid white;
     text-align: center;
     color: white;
+    font-family: "KOTRAHOPE";
 }
 
 .form-control2{
@@ -54,6 +63,7 @@ input:focus{
     border: 1px solid white;
     text-align: center;
     color: white;
+    font-family: "KOTRAHOPE";
 }
 
 .button{
@@ -65,6 +75,7 @@ input:focus{
     border: 1px solid white;
     border-radius: 8px;
     color: white;
+    font-family: "KOTRAHOPE";
 }
 
 .button:hover{
@@ -81,4 +92,17 @@ input:focus{
     background-color: transparent;
     border: 1px solid white;
     border-radius: 10px;
+}
+
+.text1{
+    color:white;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: "KOTRAHOPE";
+}
+
+.blockquote-footer{
+    color:white;
+    margin-left: 10px;
+    font-family: "KOTRAHOPE";
 }
