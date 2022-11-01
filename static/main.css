@@ -6,6 +6,8 @@
     font-style: normal;
     }
 
+ @import url('https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;600&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -25,9 +27,6 @@ input:focus{
     transition: 0.6s;
 }
 
-
-
-
 .warp{
     width: 100vh;
     height: 300px;
@@ -36,7 +35,6 @@ input:focus{
     justify-content: center;
     align-items: center;
 }
-
 
 .container{
     display: flex;
@@ -106,3 +104,107 @@ input:focus{
     margin-left: 10px;
     font-family: "KOTRAHOPE";
 }
+
+
+/*  개인소개 페이지 시작 */
+.members{
+  padding: 4rem
+}
+
+.member {
+  padding: 2.2rem;
+  outline: 2px solid #F1C40F;
+  max-width: 70%;
+  margin: 0 2rem 3rem 2rem;
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px gray;
+  transition: 1s;
+}
+
+.member:hover {
+  transform: scale(1.1);
+}
+
+.left {
+  float: left;
+  box-sizing: border-box;
+}
+
+.right {
+  float: right;
+  box-sizing: border-box;
+}
+
+.member_img {
+  background-color: #F1C40F;
+  border-radius: 100px;
+  padding: 18px
+}
+.member_img_left {
+  margin-right: 3rem;
+  
+}
+
+.member_img_right {
+  margin-left: 3rem;
+}
+
+.member_img img{
+  width: 8rem
+}
+
+.memeber_name {
+  font-family: 'KOTRAHOPE', serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+
+.member_information {
+  font-family: 'Hahmlet', serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+@media (max-width: 950px) {
+  .member {
+    margin: 2rem;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+  }
+
+  .right {
+    display:flex;
+    flex-direction: column-reverse;
+  }
+
+  .member_img img{
+    width: 8rem
+
+  }
+
+  .member_img {
+    border-radius: 100px;
+    padding: 18px
+  }
+
+  .member_description {
+    padding-top: 1.2rem;
+    text-align: center;
+  }
+  
+  .member_img_left {
+    margin-right: 0rem;
+    
+  }
+  
+  .member_img_right {
+    margin-left: 0rem;
+  }
+}
+
+
+/*  개인소개 페이지 끝 */
