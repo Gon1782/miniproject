@@ -36,8 +36,6 @@ body{
     width: 300px;
     height: 300px;
     border-radius: 10%;
-    box-shadow: /* White glow */ 0 0 7px #fff, 0 0 10px rgb(255, 255, 255), 0 0 21px #fff, 
-    /* Green glow */ 0 0 21px rgb(255, 255, 255), 0 0 41px rgb(255, 255, 255), 0 0 46px rgb(255, 255, 255), 0 0 51px rgb(255, 255, 255), 0 0 75px rgb(255, 255, 255);
 }
 
 .text{
