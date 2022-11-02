@@ -86,3 +86,27 @@ input[type="radio"]:checked + label {
   font-size: 28px;
   padding: 30px;
 }
+
+.sticky {
+  position: -webkit-sticky;
+  position: fixed;
+  top: 130px;
+  left: 140px;
+  padding: 10px 45px;
+  background-color: transparent;
+  border-radius: 30px;
+  border: 5px solid rgba(246, 210, 125, 0.9);
+  font-size: 15px;
+}
+
+.sticky a {
+  color: rgb(74, 73, 73);
+  text-decoration: none;
+}
+
+.sticky:hover {
+  background-color: rgba(255, 248, 235, 0.9);
+  transform: scale(1.1);
+  border: 5px solid rgba(255, 213, 130, 0.9);
+
+}
