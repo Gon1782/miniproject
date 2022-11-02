@@ -680,3 +680,43 @@ input:focus {
 }
 
 /*  개인소개 페이지 끝 */
+
+#blog_address {
+  margin-top: 105px;
+  position: relative;
+  width: 100%;
+  margin-top: 175px;
+}
+
+
+#foot {
+  width: 100%;
+  bottom: 0px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 100px;
+  padding-bottom: 10px;
+  color: whitesmoke;
+  font-size: 11px;
+  background-color: black;
+}
+
+#foot a {
+  display: inline-block;
+  margin: 5px;
+  color: whitesmoke;
+  font-size: 11px;
+}
+
+#foot a:visited {
+  color: whitesmoke;
+}
+
+#foot p {
+  margin-top: 0; margin-bottom: 0;
+}
+
+#foot p span {
+  display: inline-block;
+  margin-left: 20px;
+}
