@@ -6,12 +6,7 @@
   font-style: normal;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poor+Story&display=swap');
-
-
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;600&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'");
 
 body {
   margin: 0px;
@@ -110,190 +105,7 @@ body {
 }
 
 /*--첫 메인페이지--*/
-.teaminfo {
-  background: url("../static/1.jpg") no-repeat center;
-  background-size: cover;
-  font-family: 'Nanum Gothic', sans-serif;
-  padding-top: 70px;
-  padding-bottom: 70px;
-  width: 100%;
-  height: 100%;
-}
-.container1 {
-  display: grid;
-  justify-content: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 200px 1fr 1fr;
-  margin: auto;
-  background-color: rgba(255, 255, 255, 0.8);
-  background-position: center;
-  border-radius: 30px;
-  width: 85%;
-  height: 90vh;
-}
-.gridHeader {
-  display: grid;
-  align-content: center;
-  text-align: center;
-  margin: 0px;
-  padding: 50px 0 50px 0;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 1;
-  grid-row-end: 2;
-}
-.item1 {
-  display: grid;
-  justify-content: center;
-  grid-column-start: 1;
-  grid-column-end: 2;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  max-width: 500px;
-  width: 100%;
-  height: 30%;
-  margin: 0 auto 0 auto;
-  padding: 0 25px 0 25px;
-}
-.item2 {
-  display: grid;
-  justify-content: center;
-  padding: 0 25px 0 25px;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  height: 70%;
-}
-.item3 {
-  display: grid;
-  justify-content: center;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 4;
-  max-width: 500px;
-  width: 100%;
-  height: 30%;
-  margin: 0 auto 50px auto;
-  padding: 0 25px 0 25px;
-}
-.features {
-  display: inline-block;
-  max-width: 500px;
-  width: 95%;
-}
-.features>li {
-  padding: 0 10px 0 10px;
-  word-break: keep-all;
-  margin-bottom: 20px;
-  list-style: url("../static/gear-fill.svg");
-  font-size: 20px;
-}
-.promise {
-  display: inline-block;
-  max-width: 500px;
-  width: 95%;
-}
-.promise>li {
-  padding: 0 10px 0 10px;
-  word-break: keep-all;
-  margin-bottom: 20px;
-  list-style: url("../static/fire.svg");
-  font-size: 20px;
-}
-.goal {
-  display: inline-block;
-  max-width: 400px;
-  width:90%;
-}
-.goal>li {
-  padding: 0 10px 0 10px;
-  word-break: keep-all;
-  margin-bottom: 20px;
-  font-size: 20px;
-}
-@media (max-width:800px) {
-  .teaminfo {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-  .container1 {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 200px 1fr 1fr;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.8);
-    background-position: center;
-    border-radius: 30px;
-    width: 85%;
-    height: 85%;
-  }
-  .gridHeader {
-    display: grid;
-    align-content: center;
-    text-align: center;
-    margin: 0px;
-    padding: 50px 0 50px 0;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
-  }
-  .item1 {
-    display: grid;
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
-    max-width: 500px;
-    width: 90%;
-    height: 30%;
-    margin: 0 auto 0 auto;
-    padding: 0 25px 0 25px;
-  }
-  .item2 {
-    display: grid;
-    justify-content: center;
-    padding: 200px 25px 0 25px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 2;
-    grid-row-end: 4;
-    height: 70%;
-  }
-  .item3 {
-    display: grid;
-    justify-content: center;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 4;
-    max-width: 500px;
-    width: 90%;
-    height: 30%;
-    margin: 0 auto 50px auto;
-    padding: 0 25px 0 25px;
-  }
-  .features {
-    display: inline-block;
-    max-width: 300px;
-    width: 90%;
-  }
-  .promise {
-    display: inline-block;
-    max-width: 300px;
-    width: 90%;
-  }
-  .goal {
-    display: inline-block;
-    max-width: 300px;
-    width:90%;
-  }
-}
-/* 팀목표 약속페이지 */
+
 a {
   text-decoration: none;
 }
@@ -317,6 +129,12 @@ input:focus {
 .warp {
   width: 100%;
   height: 600px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("../static/3.webp");
   display: flex;
   justify-content: center;
   align-items: center;
@@ -324,17 +142,15 @@ input:focus {
 
 .container {
   display: flex;
-  margin-top: 200px;
 }
 
 .form-control1 {
   width: 100px;
   height: 84px;
-  margin-right: 20px;
+  margin-right: 10px;
   border-radius: 8px;
   background-color: transparent;
-  box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #fff,
-    0 0 10px rgb(255, 255, 255), 0 0 12px #fff, 0 0 14px #fff, 0 0 16px #fff;
+  border: 2px solid white;
   text-align: center;
   color: white;
   font-family: "KOTRAHOPE";
@@ -342,13 +158,12 @@ input:focus {
 }
 
 .form-control2 {
-  width: 538px;
+  width: 500px;
   height: 84px;
-  margin-right: 20px;
+  margin-right: 10px;
   border-radius: 8px;
   background-color: transparent;
-  box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #fff,
-    0 0 10px rgb(255, 255, 255), 0 0 12px #fff, 0 0 14px #fff, 0 0 16px #fff;
+  border: 2px solid white;
   text-align: center;
   color: white;
   font-family: "KOTRAHOPE";
@@ -359,10 +174,9 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 89px;
-  width: 90px;
-  box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #fff,
-    0 0 10px rgb(255, 255, 255), 0 0 12px #fff, 0 0 14px #fff, 0 0 16px #fff;
+  height: 87px;
+  width: 82px;
+  border: 2px solid white;
   border-radius: 8px;
   background-color: transparent;
   color: white;
@@ -371,43 +185,28 @@ input:focus {
 }
 
 .button:hover {
-  box-shadow: 0 0 8px #fff, 0 0 10px #fff, 0 0 12px #fff, 0 0 14px #fff,
-    0 0 16px rgb(255, 255, 255), 0 0 18px #fff, 0 0 20px #fff, 0 0 22px #fff;
-  transition: 0.3s;
+  box-shadow:  /* White glow */ 0 0 7px #fff, 0 0 10px rgb(255, 255, 255),
+    0 0 21px #fff, /* Green glow */ 0 0 3px rgb(255, 255, 255),
+    0 0 5px rgb(255, 255, 255), 0 0 8px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255);
+  transition: 0.8s;
 }
 
 .mycards {
-  margin-top: 20px;
-  width: 785px;
+  margin-top: 10px;
+  width: 710px;
   height: 400px;
   background-color: transparent;
-  box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #fff,
-    0 0 10px rgb(255, 255, 255), 0 0 12px #fff, 0 0 14px #fff, 0 0 16px #fff;
+  border: 2px solid white;
   border-radius: 10px;
-  overflow: auto;
-}
-
-.mycards::-webkit-scrollbar {
-  width: 20px;  /* 스크롤바의 너비 */
-}
-
-.mycards::-webkit-scrollbar-thumb {
-  height: 20%; /* 스크롤바의 길이 */
-  background: white; /* 스크롤바의 색상 */
-
-  border-radius: 10px;
-}
-
-.mycards::-webkit-scrollbar-track {
-  background: transparent;  /*스크롤바 뒷 배경 색상*/
 }
 
 .text1 {
+  color: white;
   margin-top: 20px;
   margin-left: 30px;
-  font-size: 30px;
-  color: white;
   font-family: "KOTRAHOPE";
+  font-size: 30px;
 }
 
 .blockquote-footer {
@@ -416,165 +215,101 @@ input:focus {
   font-family: "KOTRAHOPE";
 }
 
-.last_hello{
-  width: 100%;
-  height: 500px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.neon_box{
-  background-color: transparent;
-  box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 30px #0fa,
-    0 0 4px #0fa, 0 0 40px #0fa, 0 0 50px #0fa, 0 0 60px #0fa;
-  width: 400px;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 75px;
-  border: 3px solid white;
-}
-
-.last_text{
-  font-size: 80px;
-  color: #fff;
-  text-shadow: /* White glow */ 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, /* Green glow */ 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
-  font-family: 'Nanum Pen Script', cursive;
-  font-family: 'Poor Story', cursive;
-  animation: flicker 1.5s infinite alternate;
-}
-
-@keyframes flicker {
-
-  20%, 40%, 20%, 82%, 20% {
-
-      text-shadow:
-      0 0 4px #fff,
-      0 0 11px #fff,
-      0 0 19px #fff,
-      0 0 40px #0fa,
-      0 0 80px #0fa,
-      0 0 90px #0fa,
-      0 0 100px #0fa,
-      0 0 150px #0fa;
-
-  }
-
-  20%, 24%, 100% {
-      text-shadow:  0 0 11px #fff,
-      0 0 19px #fff
-  }
-}
-
-
-.connect {
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.1),rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 1)),
-    url("../static/3.webp");
-}
-
 /*  개인소개 페이지 시작 */
-.members{
-    width: 100%;
+.members {
+  padding: 4rem;
+}
 
-  }
+.member {
+  padding: 2.2rem;
+  outline: 2px solid #f1c40f;
+  max-width: 70%;
+  margin: 0 2rem 3rem 2rem;
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+  box-shadow: 5px 5px 5px 5px gray;
+  transition: 1s;
+}
 
+.member:hover {
+  transform: scale(1.1);
+}
+
+.left {
+  float: left;
+  box-sizing: border-box;
+}
+
+.right {
+  float: right;
+  box-sizing: border-box;
+}
+
+.member_img {
+  background-color: #f1c40f;
+  border-radius: 100px;
+  padding: 18px;
+}
+.member_img_left {
+  margin-right: 3rem;
+}
+
+.member_img_right {
+  margin-left: 3rem;
+}
+
+.member_img img {
+  width: 8rem;
+}
+
+.memeber_name {
+  font-family: "KOTRAHOPE", serif;
+  font-weight: 600;
+  font-size: 20px;
+  padding-bottom: 1rem;
+}
+
+.member_information {
+  font-family: "Hahmlet", serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+@media (max-width: 950px) {
   .member {
-    padding: 2.2rem;
-    outline: 5px solid #F1C40F;
-    max-width: 70%;
-    margin: 0 2rem 3rem 2rem;
-    display: flex;
-    border-radius: 30px;
+    margin: 2rem;
+    flex-direction: column;
     align-items: center;
-    box-shadow: 5px 5px 5px 5px gray;
-    transition: 1s;
-    background-color: rgba(255, 247, 215, 0.8);
-  }
-
-  .member:hover {
-    transform: scale(1.1);
-  }
-
-  .left {
-    margin: 4rem 0 0 6rem;
-    float: left;
-    box-sizing: border-box;
+    max-width: 100%;
   }
 
   .right {
-    margin: 4rem 4rem 0 0;
-    float: right;
-    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .member_img img {
+    width: 8rem;
   }
 
   .member_img {
-    background-color: #F1C40F;
     border-radius: 100px;
-    padding: 18px
+    padding: 18px;
   }
-  .member_img_left {
-    margin-right: 3rem;
 
+  .member_description {
+    padding-top: 1.2rem;
+    text-align: center;
+  }
+
+  .member_img_left {
+    margin-right: 0rem;
   }
 
   .member_img_right {
-    margin-left: 3rem;
+    margin-left: 0rem;
   }
-
-  .member_img img{
-    width: 12rem
-  }
-
-  .memeber_name {
-    font-family: 'KOTRAHOPE', serif;
-    font-weight: 600;
-    font-size: 28px;
-  }
-
-  .member_information {
-    font-family: 'Hahmlet', serif;
-    font-weight: 200;
-    font-size: 15px;
-  }
-
-  @media (max-width: 950px) {
-    .member {
-      margin: 2rem;
-      flex-direction: column;
-      align-items: center;
-      max-width: 100%;
-    }
-
-    .right {
-      display:flex;
-      flex-direction: column-reverse;
-    }
-
-    .member_img img{
-      width: 8rem
-    }
-
-    .member_img {
-      border-radius: 100px;
-      padding: 18px
-    }
-
-    .member_description {
-      text-align: center;
-    }
-
-    .member_img_left {
-      margin-right: 0rem;
-
-    }
-
-    .member_img_right {
-      margin-left: 0rem;
-    }
-  }
+}
 
 /*  개인소개 페이지 끝 */
