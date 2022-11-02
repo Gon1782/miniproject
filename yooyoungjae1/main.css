@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nanum+Pen+Script&family=Poor+Story&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.containerr{
+    width: 100%;
+    height: 732px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.95),
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.85),
+        rgba(0, 0, 0, 0.9),
+        rgb(0, 0, 0)
+    ),
+    url("../yooyoungjae1/1.webp");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* i{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 40px;
+} */
+
+.main_page{
+    margin-top: 350px;
+}
+
+.text{
+    margin-bottom: 300px;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Nanum Pen Script', cursive;
+    font-family: 'Poor Story', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size: 130px;
+    color: white;
+    text-shadow: /* White glow */ 0 0 4px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    /* Green glow */ 0 0 42px rgb(0, 0, 210), 0 0 50px rgb(0, 0, 210), 0 0 60px rgb(0, 0, 210), 0 0 70px #0fa,
+    0 0 80px rgb(0, 0, 210);
+}
+/* ----------------------------------------- */
+
+.slide_box{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 1),
+        rgba(255, 255, 255, 0.5),
+        rgba(0, 0, 0, 0.7),
+        rgb(0, 0, 0, 0.9)
+    ),
+    url("../static/3.webp");
+}
+
+.main_hello{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: 'Noto Serif KR', serif;
+}
+
+.main_pagebox{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0, 1),
+        rgb(0, 0, 0, 0.7),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.4),
+        rgba(255, 255, 255, 0.9),
+        rgb(255, 255, 255)
+    ),
+    url("../yooyoungjae1/4.jpeg");
+    background-size: cover;
+}
+
+.sub_pagebox{
+    width: 100%;
+    height: 1100px;
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.8),
+        rgb(0, 0, 0, 1)
+    ),
+    url("../yooyoungjae1/6.jpeg");
+    background-size: contain;
+}
