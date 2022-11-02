@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gowun+Dodum&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gowun Dodum', sans-serif;
+}
+
+.title {
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  font-family: inherit;
+  font-size: 24px;
+  border: 90px solid #000;
+  border-bottom: 38px solid rgba(122, 111, 87, 0.5);
+}
+
+.profile {
+  border-radius: 30%;
+  display: inline-block;
+  padding: 0.5rem;
+  margin-top: 20px;
+  border: 1px solid gray;
+  background-color: rgba(245, 218, 154, 0.9);
+  border: 5px solid rgba(255, 255, 255, 0.9);
+}
+
+.profile img {
+  border-radius: 30%;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+.tab_content {
+  width: 100%;
+  text-align: center;
+}
+
+input[type="radio"] {
+  display:none;
+}
+
+input[type="radio"] + label {
+  display:inline-block;
+  padding: 20px 60px;
+  color: #999;
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+input[type="radio"]:checked + label {
+  color: #000;
+}
+
+.conbox {
+  width: 65%;
+  margin: 12px auto;
+  display: none;
+  background-color: rgba(251, 244, 236,0.3);
+  border-radius: 30px;
+  outline: 15px solid antiquewhite;
+}
+
+#tab01:checked ~ .con1 {
+  display: block;
+}
+
+#tab02:checked ~ .con2 {
+  display: block;
+}
+
+#tab03:checked ~ .con3 {
+  display: block;
+}
+
+.information {
+  font-family: inherit;
+  font-size: 28px;
+  padding: 30px;
+}
