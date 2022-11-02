@@ -2,6 +2,9 @@ $(document).ready(function () {
     show_comment()
 });
 
+$("#jqueryBtn").click(function(){
+    $(".blockquote-footer").input();
+});
 // document.getElementById("button").addEventListener("click", save_comment);
 
 function save_comment() {
