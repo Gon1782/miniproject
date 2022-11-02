@@ -6,6 +6,9 @@
   font-style: normal;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poor+Story&display=swap');
+
+
 @import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@200;600&display=swap");
 
 @import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap'");
@@ -233,7 +236,7 @@ input:focus {
 .warp {
   width: 100%;
   height: 600px;
-  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.8)),
     url("../static/3.webp");
   display: flex;
   justify-content: center;
@@ -301,7 +304,7 @@ input:focus {
   box-shadow: 0 0 2px #fff, 0 0 4px #fff, 0 0 6px #fff, 0 0 8px #fff,
     0 0 10px rgb(255, 255, 255), 0 0 12px #fff, 0 0 14px #fff, 0 0 16px #fff;
   border-radius: 10px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 .mycards::-webkit-scrollbar {
@@ -332,6 +335,61 @@ input:focus {
   margin-left: 30px;
   font-family: "KOTRAHOPE";
 }
+
+.last_hello{
+  width: 100%;
+  height: 500px;
+  background-image: linear-gradient(0deg,rgba(0, 0, 0, 1),rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.9)),
+    url("../static/3.webp");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.neon_box{
+  background-color: transparent;
+  box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 30px #0fa,
+    0 0 4px #0fa, 0 0 40px #0fa, 0 0 50px #0fa, 0 0 60px #0fa;
+  width: 400px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 75px;
+  border: 3px solid white;
+}
+
+.last_text{
+  font-size: 80px;
+  color: #fff;
+  text-shadow: /* White glow */ 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, /* Green glow */ 0 0 42px #0fa, 0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+  font-family: 'Nanum Pen Script', cursive;
+  font-family: 'Poor Story', cursive;
+  animation: flicker 1.5s infinite alternate;
+}
+
+@keyframes flicker {
+    
+  20%, 40%, 20%, 82%, 20% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #0fa,
+      0 0 80px #0fa,
+      0 0 90px #0fa,
+      0 0 100px #0fa,
+      0 0 150px #0fa;
+  
+  }
+  
+  20%, 24%, 100% {        
+      text-shadow:  0 0 11px #fff,
+      0 0 19px #fff
+  }    
+}
+
 
 /*  개인소개 페이지 시작 */
 .members {
@@ -431,3 +489,4 @@ input:focus {
 }
 
 /*  개인소개 페이지 끝 */
+
