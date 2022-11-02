@@ -109,7 +109,7 @@ body {
   background-color: var(--color-dark-white);
 }
 
-/*--첫 메인페이지--*/
+/*--첫 메인페이지--*/ 
 .teaminfo {
   background: url("../static/1.jpg") no-repeat center;
   background-size: cover;
