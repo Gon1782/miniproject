@@ -48,13 +48,6 @@ def project_delete():
     return jsonify({'msg': '댓글이 삭제되었습니다.'})
 
 
-@app.route("/miniproject/update", methods=["POST"])
-def project_update():
-    comment_receive = request.form['comment_give']
-    num_receive = request.form['num_give']
-    comment_update = db.comments.update_one({'num': int(num_receive)}, {'$set':{'comment': comment_receive}})
-    return jsonify({'comment': comment_update})
-
 
 
 

@@ -477,7 +477,7 @@ input:focus {
 }
 
 .text1 {
-  width: 950px;
+  width: 900px;
   margin-top: 20px;
   margin-left: 30px;
   font-size: 30px;
@@ -670,6 +670,7 @@ input:focus {
 
 
 #foot {
+  box-sizing: border-box;
   width: 100%;
   bottom: 0px;
   position: absolute;
