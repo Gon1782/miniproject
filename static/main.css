@@ -565,6 +565,8 @@ input:focus {
 /*  개인소개 페이지 시작 */
 .members {
   width: 100%;
+  max-width: 1500px;
+  margin: auto;
 }
 
 .member {
@@ -625,7 +627,7 @@ input:focus {
   width: 500px;
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1120px) {
   .member {
     margin: 2rem;
     flex-direction: column;
