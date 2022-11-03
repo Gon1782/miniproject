@@ -52,6 +52,18 @@ def advance():
 def style():
     return render_template('style.html')
 
+@app.route('/card1')
+def card1():
+    return render_template('card1.html')
+
+@app.route('/card2')
+def card2():
+    return render_template('card2.html')
+
+@app.route('/card3')
+def card3():
+    return render_template('card3.html')
+
 
 @app.route("/miniproject", methods=["POST"])
 def project_post():
