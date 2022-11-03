@@ -1,24 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   background-color: rgb(152, 197, 233);
+  overflow: hidden;
+}
+body {
+  width: 100%;
 }
 /* sidebar */
-.sidebar{
-  font-family: 'Gugi', cursive;
+.sidebar {
+  font-family: "Gugi", cursive;
   position: fixed;
   left: -250px;
   width: 250px;
   height: 100%;
   background: #042331;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-.sidebar header{
+.sidebar header {
   font-size: 22px;
   color: white;
   text-align: center;
@@ -26,7 +30,7 @@
   background: #063146;
   user-select: none;
 }
-.sidebar ul a{
+.sidebar ul a {
   display: block;
   height: 100%;
   width: 100%;
@@ -36,40 +40,41 @@
   padding-left: 20px;
   padding-right: 20px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(255, 255, 255, .1);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid black;
-  transition: .4s;
+  transition: 0.4s;
   background: #042331;
 }
-ul li:hover a{
+ul li:hover a {
   padding-left: 30px;
   padding-right: 10px;
 }
-.sidebar ul a i{
+.sidebar ul a i {
   margin-right: 16px;
   background: #042331;
 }
-#check{
+#check {
   display: none;
 }
-label #btn,label #cancel{
+label #btn,
+label #cancel {
   position: absolute;
   cursor: pointer;
 }
-label #btn{
+label #btn {
   left: 20px;
   top: 50%;
   font-size: 35px;
   color: black;
   background: transparent;
   padding: 6px 12px;
-  transition: all .5s;
+  transition: all 0.5s;
 }
-label:hover #btn{
+label:hover #btn {
   font-size: 40px;
-  transition: .3s;
+  transition: 0.3s;
 }
-label #cancel{
+label #cancel {
   z-index: 1111;
   left: -195px;
   top: 17px;
@@ -78,25 +83,25 @@ label #cancel{
   font-size: 30px;
   color: #0a5275;
   padding: 4px 9px;
-  transition: all .5s ease;
+  transition: all 0.5s ease;
 }
-#check:checked ~ .sidebar{
+#check:checked ~ .sidebar {
   left: 0px;
 }
-#check:checked ~ label #btn{
+#check:checked ~ label #btn {
   left: 250px;
   opacity: 0;
   pointer-events: none;
 }
-#check:checked ~ label #cancel{
+#check:checked ~ label #cancel {
   left: 195px;
 }
 /* introduce */
 img {
-  width: 25%
+  width: 25%;
 }
-.info{
-  font-family: 'Gugi', cursive;
+.info {
+  font-family: "Gugi", cursive;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr;
@@ -105,46 +110,46 @@ img {
   padding-top: 100px;
   font-size: 32px;
 }
-.info > P{
-  background-color: #53A7EC;
+.info > P {
+  background-color: #53a7ec;
   padding: 20px 20px 20px 20px;
   border-radius: 30px;
 }
 /* Advantages */
-nav{
-  font-family: 'Jua', sans-serif;
+nav {
+  font-family: "Jua", sans-serif;
   height: 100vh;
   width: 70vw;
   min-width: 600px;
   display: grid;
   align-items: center;
   justify-content: space-around;
-  justify-items:center;
+  justify-items: center;
   margin: auto;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 1fr 1fr;
 }
-.a1{
+.a1 {
   grid-column: 1 / 2;
-	grid-row: 1 / 2;
+  grid-row: 1 / 2;
 }
-.a2{
+.a2 {
   grid-column: 2 / 3;
-	grid-row: 2 / 3;
+  grid-row: 2 / 3;
 }
-.a3{
+.a3 {
   grid-column: 3 / 4;
-	grid-row: 1 / 2;
+  grid-row: 1 / 2;
 }
-.a4{
+.a4 {
   grid-column: 4 / 5;
-	grid-row: 2 / 3;
+  grid-row: 2 / 3;
 }
-.a5{
+.a5 {
   grid-column: 5 / 6;
-	grid-row: 1 / 2;
+  grid-row: 1 / 2;
 }
-nav > li{
+nav > li {
   position: relative;
   text-decoration: none;
   color: black;
@@ -152,44 +157,44 @@ nav > li{
   letter-spacing: 0.5px;
   height: 200px;
   width: 200px;
-  background-color: #E8C897;
+  background-color: #e8c897;
   border-radius: 100px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-nav > li:hover{
+nav > li:hover {
   height: 250px;
   width: 250px;
   border-radius: 150px;
   font-size: 36px;
-  transition: .8s ease;
+  transition: 0.8s ease;
 }
 /* collab style */
-.collab{
+.collab {
   display: grid;
   grid-template-rows: 300px 3fr;
   justify-items: center;
   align-items: center;
   font-size: 32px;
 }
-.collab > h1{
-  font-family: 'Gugi', cursive;
+.collab > h1 {
+  font-family: "Gugi", cursive;
   font-weight: normal;
-  color: #BA7C1C;
-  background-color: #264E6E;
+  color: #ba7c1c;
+  background-color: #264e6e;
   padding: 20px 20px 20px 20px;
   border-radius: 30px;
   text-align: center;
 }
-.collab > ul{
-  padding-top: 50px
+.collab > ul {
+  padding-top: 50px;
 }
-.collab > ul > li{
-  font-family: 'Jua', sans-serif;
+.collab > ul > li {
+  font-family: "Jua", sans-serif;
   margin-bottom: 50px;
-  background-color: #53A7EC;
+  background-color: #53a7ec;
   padding: 20px 20px 20px 20px;
   border-radius: 30px;
 }
