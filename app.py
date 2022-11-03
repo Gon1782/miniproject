@@ -16,6 +16,10 @@ db = client.dbsparta
 @app.route('/')
 def home():
     return render_template('index.html')
+    
+@app.route('/youngjae')
+def youngjae():
+    return render_template('youngjae.html')
 
 
 @app.route("/miniproject", methods=["POST"])
@@ -46,8 +50,6 @@ def project_delete():
     num_receive = request.form['num_give']
     db.comments.delete_one({'num': int(num_receive)})
     return jsonify({'msg': '댓글이 삭제되었습니다.'})
-
-
 
 
 

@@ -1,107 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="../static/main.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="../static/main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--폰트링크는 여기에-->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Document</title>
-</head>
-    <!-- 꼭읽어주세요! -->
-    <!-- -- 개인페이지는 개인이름 영문의 폴더를 만들어서 html, css 등의 파일을 저장해주시고 마지막에
+  </head>
+  <!-- 꼭읽어주세요! -->
+  <!-- -- 개인페이지는 개인이름 영문의 폴더를 만들어서 html, css 등의 파일을 저장해주시고 마지막에
         링크를걸어서 경로만 지정하여 페이지에 출력될수있게 만들어보는건어떨까요? -->
-    <!-- --css파일은 static 안에있는 main.css입니다 타섹션과 class 겹치지않게 사용해주세요!
+  <!-- --css파일은 static 안에있는 main.css입니다 타섹션과 class 겹치지않게 사용해주세요!
     --js 파일도 static 안에 main.js 입니다 긁어오셔서 사용할때는 링크는
         해드부분에 달아주시면되고 이런걸 사용하고싶다 조율후 사용하시면될거같습니다 -->
-<body>
-
-    <!-- 첫메인페이지 -->  
+  <body>
+    <!-- 첫메인페이지 -->
     <section id="first" class="firstsection">
       <div class="section__container">
-       <h1 class="thug">떡잎반</h1>
+        <h1 class="thug">떡잎반</h1>
 
-       <div class="work__projects">
-         <a href="" class="project" target="blank" data-type="panda">
-           <img
-             src="../static/panda.png"
-             alt="panda"
-             class="project__img"
-           />
-           <div class="project__description">
-             <h3>한상권</h3>
-           </div>
-         </a>
-         <a
-           href=""
-           class="project"
-           data-type="dog"
-           target="blank"
-         >
-           <img
-             class="project__img"
-             src="../static/dog.png"
-             alt="navbar"
-           />
-           <div class="project__description">
-             <h3>유영재</h3>
-           </div>
-         </a>
-         <a
-           href=""
-           class="project"
-           data-type="cow"
-           target="blank"
-         >
-           <img class="project__img" src="../static/cow.png" alt="" />
-           <div class="project__description">
-             <h3>최희라</h3>
-           </div>
-         </a>
-         <a href="" class="project" data-type="pig">
-           <img class="project__img" src="../static/pig.png" alt="" />
-           <div class="project__description">
-             <h3>한재창</h3>
-
-           </div>
-         </a>
-         <a href="" class="project" data-type="chicken">
-           <img class="project__img" src="../static/chicken.png" alt="" />
-           <div class="project__description">
-             <h3>이희경</h3>
-           </div>
-         </a>
-
-
-     </section>
+        <div class="work__projects">
+          <a href="" class="project" data-type="panda">
+            <img src="../static/panda.png" alt="panda" class="project__img" />
+            <div class="project__description">
+              <h3>한상권</h3>
+            </div>
+          </a>
+          <a
+            href="http://banghwa.shop/youngjae"
+            class="project"
+            data-type="dog"
+          >
+            <img class="project__img" src="../static/dog.png" alt="navbar" />
+            <div class="project__description">
+              <h3>유영재</h3>
+            </div>
+          </a>
+          <a href="../templates/heera.html" class="project" data-type="cow">
+            <img class="project__img" src="../static/cow.png" alt="" />
+            <div class="project__description">
+              <h3>최희라</h3>
+            </div>
+          </a>
+          <a href="/jaechang.html" class="project" data-type="pig">
+            <img class="project__img" src="../static/pig.png" alt="" />
+            <div class="project__description">
+              <h3>한재창</h3>
+            </div>
+          </a>
+          <a href="/sogaehee.html" class="project" data-type="chicken">
+            <img class="project__img" src="../static/chicken.png" alt="" />
+            <div class="project__description">
+              <h3>이희경</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
     <!-- 팀목표 약속페이지-->
     <section class="teaminfo">
-        <div class="container1">
-        <h1 class="gridHeader" style="font-family: 'KOTRAHOPE'; font-size: 60px;">팀소개</h1>
+      <div class="container1">
+        <h1
+          class="gridHeader"
+          style="font-family: 'KOTRAHOPE'; font-size: 60px"
+        >
+          팀소개
+        </h1>
         <div class="item1">
-          <h2 style="font-family: 'KOTRAHOPE'; font-size: 44px; font-weight: 100;">팀의 특징</h2>
+          <h2
+            style="font-family: 'KOTRAHOPE'; font-size: 44px; font-weight: 100"
+          >
+            팀의 특징
+          </h2>
           <div>
             <ul class="features">
               <li>의사소통이 원할함</li>
-                <p style="font-size: 18px">내용이 들어갈거임</p>
-                <li>합리적으로 역할을 정함(사다리타기)</li>
-              </ul>
+              <p style="font-size: 18px">내용이 들어갈거임</p>
+              <li>합리적으로 역할을 정함(사다리타기)</li>
+            </ul>
           </div>
         </div>
         <div class="item3">
-          <h2 style="font-family: 'KOTRAHOPE'; font-size: 44px; font-weight: 100;">팀이 추구하는 목표</h2>
+          <h2
+            style="font-family: 'KOTRAHOPE'; font-size: 44px; font-weight: 100"
+          >
+            팀이 추구하는 목표
+          </h2>
           <div>
             <ol class="goal">
-              <li style="list-style: url('../static/1-square-fill.svg');">열심히 공부해서 잘하는 개발자가 되자</li>
-              <li style="list-style: url('../static/2-square-fill.svg');">주어진 프로젝트를하면서 팀원들과 협업하는 방법을 배우고,<br>
-                  원할한 커뮤니케이션을 통한 결과값을 도출해낸다.</li>
-              <li style="list-style: url('../static/3-square-fill.svg');">개인적인 실력 향상</li>
+              <li style="list-style: url('../static/1-square-fill.svg')">
+                열심히 공부해서 잘하는 개발자가 되자
+              </li>
+              <li style="list-style: url('../static/2-square-fill.svg')">
+                주어진 프로젝트를하면서 팀원들과 협업하는 방법을 배우고,<br />
+                원할한 커뮤니케이션을 통한 결과값을 도출해낸다.
+              </li>
+              <li style="list-style: url('../static/3-square-fill.svg')">
+                개인적인 실력 향상
+              </li>
             </ol>
           </div>
         </div>
         <div class="item2">
-          <h2 style="font-family: 'KOTRAHOPE'; font-size: 44px; font-weight: 100;">우리 팀의 약속</h2>
+          <h2
+            style="font-family: 'KOTRAHOPE'; font-size: 44px; font-weight: 100"
+          >
+            우리 팀의 약속
+          </h2>
           <ul class="promise">
             <li>시간약속 잘지키기</li>
             <li>자기가 맡은일은 끝까지 완수하기</li>
@@ -116,95 +123,141 @@
     </section>
     <!-- 개인소개페이지 -->
     <div class="connect">
-        <section class="members">
-            <div class="member left">
-              <div class="member_img member_img_left">
-                  <img src="../static/panda.png" alt="" />
-              </div>
-              <div class="member_description">
-                  <p class="memeber_name">한상권</p>
-                  <p class="member_information">"시작하지 않으면 아무 일도 일어나지 않는다."</p>
-              </div>
-            </div>
-            <div class="member right">
-              <div class="member_description">
-                  <p class="memeber_name">유영재</p>
-                  <p class="member_information">"나를 파괴하지 못하는 것은 나를 더욱 강하게 만든다"<br/> "What does not destroy me, makes me stronger"</p>
-              </div>
-              <div class="member_img member_img_right">
-                  <img src="../static/dog.png" alt="" />
-              </div>
-            </div>
-            <div class="member left">
-              <div class="member_img member_img_left">
-                  <img src="../static/cow.png" alt="" />
-              </div>
-              <div class="member_description">
-                  <p class="memeber_name">최희라</p>
-                  <p class="member_information">"동기부여가 당신을 시작하게 한다. 습관이 당신을 계속 움직이게 한다."
-                  </p>
-              </div>
-            </div>
-            <div class="member right">
-              <div class="member_description">
-                  <p class="memeber_name">한재창</p>
-                  <p class="member_information">
-                    "니체가 말하길, 먼 곳을 항해하는 배가 풍파를 만나지 않고 조용히만 갈 수는 없다. 풍파는 언제나 전진하는 자의 벗이다. 차라리 고난 속에 인생의 기쁨이 있다. 풍파 없는 항해, 얼마나 단조로운가! 고난이 심할수록 내 가슴은 뛴다. 코딩도 똑같다고 생각한다. 풍파속에서 기쁨을 찾아보겠다."
-                  </p>
-              </div>
-              <div class="member_img member_img_right">
-                  <img src="../static/pig.png" alt="" />
-              </div>
-            </div>
-            <div class="member left">
-              <div class="member_img member_img_left">
-                  <img src="../static/chicken.png" alt="" />
-              </div>
-              <div class="member_description">
-                  <p class="memeber_name">이희경</p>
-                  <p class="member_information">"흉터를 가진 모두에게 존경을, 이겨낸 이에게 축복을."
-                  </p>
-              </div>
-            </div>
-        </section>
-        <!--응원의한마디-->
-        <div class="warp">
-            <div class="sub">
-                <div class="container">
-                    <div class="input_name">
-                        <input type="text" class="form-control1" id="name" placeholder="닉네임">
-                    </div>
-                    <div class="input_comment">
-                        <input class="form-control2" placeholder="응원댓글!" id="comment"></input>
-                    </div>
-                    <button onclick="save_comment()" type="button" class="button">남기기!</button>
-                    </div>
-            <div class="mycards" id="comment-list">
-                <div class="card">
-                </div>
-            </div>
-
+      <section class="members">
+        <div class="member left">
+          <div class="member_img member_img_left">
+            <img src="../static/panda.png" alt="" />
+          </div>
+          <div class="member_description">
+            <p class="memeber_name">한상권</p>
+            <p class="member_information">
+              "시작하지 않으면 아무 일도 일어나지 않는다."
+            </p>
+          </div>
         </div>
+        <div class="member right">
+          <div class="member_description">
+            <p class="memeber_name">유영재</p>
+            <p class="member_information">
+              "나를 파괴하지 못하는 것은 나를 더욱 강하게 만든다"<br />
+              "What does not destroy me, makes me stronger"
+            </p>
+          </div>
+          <div class="member_img member_img_right">
+            <img src="../static/dog.png" alt="" />
+          </div>
         </div>
-        <div class="last_hello">
+        <div class="member left">
+          <div class="member_img member_img_left">
+            <img src="../static/cow.png" alt="" />
+          </div>
+          <div class="member_description">
+            <p class="memeber_name">최희라</p>
+            <p class="member_information">
+              "동기부여가 당신을 시작하게 한다. 습관이 당신을 계속 움직이게
+              한다."
+            </p>
+          </div>
+        </div>
+        <div class="member right">
+          <div class="member_description">
+            <p class="memeber_name">한재창</p>
+            <p class="member_information">
+              "니체가 말하길, 먼 곳을 항해하는 배가 풍파를 만나지 않고 조용히만
+              갈 수는 없다. 풍파는 언제나 전진하는 자의 벗이다. 차라리 고난 속에
+              인생의 기쁨이 있다. 풍파 없는 항해, 얼마나 단조로운가! 고난이
+              심할수록 내 가슴은 뛴다. 코딩도 똑같다고 생각한다. 풍파속에서
+              기쁨을 찾아보겠다."
+            </p>
+          </div>
+          <div class="member_img member_img_right">
+            <img src="../static/pig.png" alt="" />
+          </div>
+        </div>
+        <div class="member left">
+          <div class="member_img member_img_left">
+            <img src="../static/chicken.png" alt="" />
+          </div>
+          <div class="member_description">
+            <p class="memeber_name">이희경</p>
+            <p class="member_information">
+              "흉터를 가진 모두에게 존경을, 이겨낸 이에게 축복을."
+            </p>
+          </div>
+        </div>
+      </section>
+      <!--응원의한마디-->
+      <div class="warp">
+        <div class="sub">
+          <div class="container">
+            <div class="input_name">
+              <input
+                type="text"
+                class="form-control1"
+                id="name"
+                placeholder="닉네임"
+              />
+            </div>
+            <div class="input_comment">
+              <input
+                class="form-control2"
+                placeholder="응원댓글!"
+                id="comment"
+              />
+            </div>
+            <button onclick="save_comment()" type="button" class="button">
+              남기기!
+            </button>
+          </div>
+          <div class="mycards" id="comment-list">
+            <div class="card"></div>
+          </div>
+        </div>
+      </div>
+      <div class="last_hello">
         <div class="neon_box">
-            <Footer class="last_text">Thank You</Footer>
+          <footer class="last_text">Thank You</footer>
         </div>
-        </div>
+      </div>
     </div>
     <!-- 개인블로그 페이지 -->
     <div id="blog_address">
       <footer id="foot">
-          <p>
+        <div>
           <h6>Group 10 | Class Cotyledon</h6>
-          <span>Captain. HAN SANG KWON <a href='https://velog.io/@hss3522'>https://velog.io/@hss3522</a></span><br/>
-          <span>Crew Member. HAN JAE CHANG <a href='https://velog.io/@abcwockd95'>https://velog.io/@abcwockd95</a></span><br/>
-          <span>Crew Member. CHOI HEE RA <a href='https://codesign.tistory.com/'>https://codesign.tistory.com/</a></span><br/>
-          <span>Crew Member. LEE HEE KYUNG <a href='https://blog-leekee.tistory.com/'>https://blog-leekee.tistory.com/</a></span><br/>
-          <span>Crew Member. YOO YOUNG JAE <a href='https://dbdudwo126.tistory.com/'>https://dbdudwo126.tistory.com/</a></span><br/>
-          </p>
+          <span
+            >Captain. HAN SANG KWON
+            <a href="https://velog.io/@hss3522"
+              >https://velog.io/@hss3522</a
+            ></span
+          ><br />
+          <span
+            >Crew Member. HAN JAE CHANG
+            <a href="https://velog.io/@abcwockd95"
+              >https://velog.io/@abcwockd95</a
+            ></span
+          ><br />
+          <span
+            >Crew Member. CHOI HEE RA
+            <a href="https://codesign.tistory.com/"
+              >https://codesign.tistory.com/</a
+            ></span
+          ><br />
+          <span
+            >Crew Member. LEE HEE KYUNG
+            <a href="https://blog-leekee.tistory.com/"
+              >https://blog-leekee.tistory.com/</a
+            ></span
+          ><br />
+          <span
+            >Crew Member. YOO YOUNG JAE
+            <a href="https://dbdudwo126.tistory.com/"
+              >https://dbdudwo126.tistory.com/</a
+            ></span
+          ><br />
+        </div>
       </footer>
-</div>
+    </div>
     <script src="../static/main.js"></script>
-</body>
+  </body>
 </html>

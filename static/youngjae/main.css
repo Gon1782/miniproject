@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Nanum+Pen+Script&family=Poor+Story&family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.containerr {
+  width: 100%;
+  height: 732px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.95),
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.85),
+      rgba(0, 0, 0, 0.9),
+      rgb(0, 0, 0)
+    ),
+    url("./1.webp");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* i{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 40px;
+} */
+
+.main_page {
+  margin-top: 350px;
+  display: flex;
+}
+
+.text {
+  margin-left: 20px;
+  margin-bottom: 300px;
+  font-family: "Great Vibes", cursive;
+  font-family: "Nanum Pen Script", cursive;
+  font-family: "Poor Story", cursive;
+  font-family: "Sacramento", cursive;
+  font-size: 130px;
+  color: white;
+  text-shadow: /* White glow */ 0 0 2px #fff, 0 0 6px #fff, 0 0 10px #fff,
+    /* Green glow */ 0 0 40px rgb(0, 0, 210), 0 0 80px rgb(0, 0, 210),
+    0 0 100px rgb(0, 0, 210), 0 0 110px rgb(0, 34, 255),
+    0 0 130px rgb(0, 0, 210);
+}
+
+.text0 {
+  position: relative;
+  margin-bottom: 300px;
+  font-family: "Great Vibes", cursive;
+  font-family: "Nanum Pen Script", cursive;
+  font-family: "Poor Story", cursive;
+  font-family: "Sacramento", cursive;
+  font-size: 130px;
+  color: white;
+  text-shadow: /* White glow */ 0 0 4px #fff, 0 0 10px #fff, 0 0 20px #fff,
+    /* Green glow */ 0 0 42px rgb(255, 0, 217), 0 0 80px rgb(255, 0, 208),
+    0 0 100px rgb(255, 0, 217), 0 0 110px rgb(255, 0, 204),
+    0 0 120px rgb(183, 0, 255);
+}
+
+/* ----------------------------------------- */
+
+.slide_box {
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 1),
+      rgba(255, 255, 255, 0.5),
+      rgba(0, 0, 0, 0.7),
+      rgb(0, 0, 0, 0.9)
+    ),
+    url("./4.webp");
+}
+
+.main_hello {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 40px;
+  font-family: "Noto Serif KR", serif;
+}
+
+.main_pagebox {
+  width: 100%;
+  height: 600px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(0, 0, 0, 1),
+      rgb(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.5),
+      rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.9),
+      rgb(255, 255, 255)
+    ),
+    url("./4.jpeg");
+  background-size: cover;
+}
+
+.sub_pagebox {
+  width: 100%;
+  height: 1100px;
+  background-image: linear-gradient(
+      0deg,
+      rgb(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.8),
+      rgb(0, 0, 0, 1)
+    ),
+    url("./6.jpeg");
+  background-size: contain;
+}
+/* ================================================= */
+
+.sub_pagebox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub_box {
+  margin-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 1200px;
+  height: 700px;
+  background-color: rgb(245, 240, 240, 0.1);
+}
+
+.innerBox {
+  display: flex;
+  width: 1100px;
+  height: 600px;
+  border-radius: 30px;
+}
+
+.img {
+  margin-top: 70px;
+  margin-left: 70px;
+  width: 300px;
+  height: 300px;
+  border-radius: 10%;
+}
+
+.texta {
+  color: white;
+  margin-left: 70px;
+  font-size: x-large;
+}
+
+.bigfont {
+  margin-top: 80px;
+  margin-left: 70px;
+  color: white;
+}
+.bigfont1 {
+  margin-top: 20px;
+  margin-left: 70px;
+  color: white;
+}
+
+.text1 {
+  color: white;
+  margin-left: 70px;
+  font-size: large;
+}
+
+.escape {
+  padding: 10px;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  margin-left: 550px;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.escape:hover {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
