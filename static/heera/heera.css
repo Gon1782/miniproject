@@ -89,14 +89,15 @@ input[type="radio"]:checked + label {
 
 .sticky {
   position: -webkit-sticky;
-  position: fixed;
-  top: 130px;
-  left: 140px;
+  display: block;
+  position: relative;
+  left: -45%;
   padding: 10px 45px;
   background-color: transparent;
   border-radius: 30px;
   border: 5px solid rgba(246, 210, 125, 0.9);
   font-size: 15px;
+  
 }
 
 .sticky a {
