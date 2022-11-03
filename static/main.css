@@ -190,6 +190,14 @@ body {
   list-style: url("../static/gear-fill.svg");
   font-size: 20px;
 }
+.features > p{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px
+}
+.features > p > span{
+ padding-left: 14px;
+}
 .promise {
   display: inline-block;
   max-width: 500px;
@@ -198,19 +206,19 @@ body {
 .promise > li {
   padding: 0 10px 0 10px;
   word-break: keep-all;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   list-style: url("../static/fire.svg");
   font-size: 20px;
 }
 .goal {
   display: inline-block;
-  max-width: 400px;
-  width: 90%;
+  max-width: 500px;
+  width: 95%;
 }
 .goal > li {
   padding: 0 10px 0 10px;
   word-break: keep-all;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   font-size: 20px;
 }
 @media (max-width: 800px) {
@@ -255,8 +263,10 @@ body {
     padding: 0 25px 0 25px;
   }
   .item2 {
-    display: grid;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding: 200px 25px 0 25px;
     grid-column-start: 2;
     grid-column-end: 3;
