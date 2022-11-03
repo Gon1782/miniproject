@@ -129,7 +129,7 @@ body {
   background-position: center;
   border-radius: 30px;
   width: 85%;
-  height: 90vh;
+  height: 100%;
 }
 .gridHeader {
   display: grid;
@@ -190,13 +190,13 @@ body {
   list-style: url("../static/gear-fill.svg");
   font-size: 20px;
 }
-.features > p{
+.features > p {
   margin-top: 0;
   margin-bottom: 10px;
-  font-size: 18px
+  font-size: 18px;
 }
-.features > p > span{
- padding-left: 14px;
+.features > p > span {
+  padding-left: 14px;
 }
 .promise {
   display: inline-block;
@@ -435,10 +435,9 @@ input:focus {
   transition: 0.3s;
 }
 
-.btn{
+.btn {
   display: flex;
 }
-
 
 .button2 {
   margin-top: 25px;
@@ -569,7 +568,7 @@ input:focus {
       rgba(255, 255, 255, 1)
     ),
     url("../static/3.webp");
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 /*  개인소개 페이지 시작 */
@@ -681,7 +680,6 @@ input:focus {
   margin-top: 175px;
 }
 
-
 #foot {
   box-sizing: border-box;
   width: 100%;
@@ -707,7 +705,8 @@ input:focus {
 }
 
 #foot p {
-  margin-top: 0; margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #foot p span {

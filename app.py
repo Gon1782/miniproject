@@ -44,12 +44,12 @@ def sogaehee():
 
 
 @app.route('/advance')
-def sogaehee():
+def advance():
     return render_template('advance.html')
 
 
 @app.route('/style')
-def sogaehee():
+def style():
     return render_template('style.html')
 
 
